@@ -6,7 +6,7 @@
 /*   By: pzlatov <pzlatov@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2024/10/22 19:27:02 by pzlatov       #+#    #+#                 */
-/*   Updated: 2024/10/24 17:25:23 by pzlatov       ########   odam.nl         */
+/*   Updated: 2024/10/25 20:19:36 by pzlatov       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,3 +33,9 @@ void	ft_putnbr_fd(int n, int fd)
 	c = (n % 10) + '0';
 	write (fd, &c, 1);
 }
+
+// int main()
+// {
+//  ft_putnbr_fd(164215730, 1);
+//  return 0;
+// }

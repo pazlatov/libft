@@ -6,7 +6,7 @@
 /*   By: pzlatov <pzlatov@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2024/10/14 16:10:55 by pzlatov       #+#    #+#                 */
-/*   Updated: 2024/10/24 17:44:15 by pzlatov       ########   odam.nl         */
+/*   Updated: 2024/10/25 20:10:06 by pzlatov       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,3 +32,18 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	}
 	return (dst_len + src_len);
 }
+
+// int main()
+// {
+//  char src1[] = "12345";
+//  char srcc[] = "12345";
+//  char dest1[10] = "abc";
+//  char destt[10] = "abc";
+//  size_t  size = 17;
+//  printf("len1 = %zu\n", ft_strlcat(dest1, src1, size));
+//  printf("lenn = %zu\n", strlcat(destt, srcc, size));
+//  printf("src1 = %s\n", src1);
+//  printf("srcc = %s\n", srcc);
+//  printf("dest1 = %s\n", dest1);
+//  printf("destt = %s\n", destt);
+// }

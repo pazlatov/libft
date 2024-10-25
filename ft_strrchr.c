@@ -6,7 +6,7 @@
 /*   By: pzlatov <pzlatov@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2024/10/09 14:03:50 by pzlatov       #+#    #+#                 */
-/*   Updated: 2024/10/24 17:52:49 by pzlatov       ########   odam.nl         */
+/*   Updated: 2024/10/25 20:12:24 by pzlatov       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,3 +31,9 @@ char	*ft_strrchr(const char *s, int c)
 		p = (char *) &s[i];
 	return (p);
 }
+
+// int main()
+// {
+//  printf("%s\n", ft_strrchr("12a34512345", '1'));
+//  printf("%s\n", strrchr("12a34512345", '1'));
+// }

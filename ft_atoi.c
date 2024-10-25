@@ -6,7 +6,7 @@
 /*   By: pzlatov <pzlatov@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2024/10/07 19:35:41 by pzlatov       #+#    #+#                 */
-/*   Updated: 2024/10/24 17:00:20 by pzlatov       ########   odam.nl         */
+/*   Updated: 2024/10/25 20:14:10 by pzlatov       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,3 +39,10 @@ int	ft_atoi(const char *str)
 	}
 	return (sign * result);
 }
+
+// int main()
+// {
+//  char str[] = "   \n -12354";
+//  printf("%d\n", atoi(str));
+//  printf("%d\n", ft_atoi(str));
+// }

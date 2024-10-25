@@ -6,7 +6,7 @@
 /*   By: pzlatov <pzlatov@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2024/10/08 15:05:55 by pzlatov       #+#    #+#                 */
-/*   Updated: 2024/10/24 17:09:19 by pzlatov       ########   odam.nl         */
+/*   Updated: 2024/10/25 20:16:18 by pzlatov       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,3 +18,11 @@ int	ft_isprint(int c)
 		return (0);
 	return (1);
 }
+
+// int main()
+// {
+//     char c = '1';
+//     printf("%d\n", ft_isprint(c));
+//  printf("%d\n", isprint(c));
+//     return 0;
+// }

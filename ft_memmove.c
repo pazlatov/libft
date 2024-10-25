@@ -6,7 +6,7 @@
 /*   By: pzlatov <pzlatov@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2024/10/10 12:30:29 by pzlatov       #+#    #+#                 */
-/*   Updated: 2024/10/24 17:22:41 by pzlatov       ########   odam.nl         */
+/*   Updated: 2024/10/25 20:18:37 by pzlatov       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,3 +38,15 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
+
+// int main()
+// {
+//  char    src1[] = "123456";
+//  char    src2[] = "123456";
+//  printf("\nsrc1: %s\n", src1);
+//  printf("src2: %s\n", src2);
+//  ft_memmove(src1, src1 + 2, 1);
+//  printf("\nsrc1: %s\n", src1);
+//  memmove(src2, src2 + 2, 1);
+//  printf("src2: %s\n", src2);
+// }

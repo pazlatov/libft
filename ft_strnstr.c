@@ -6,7 +6,7 @@
 /*   By: pzlatov <pzlatov@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2024/10/09 15:16:01 by pzlatov       #+#    #+#                 */
-/*   Updated: 2024/10/24 17:51:42 by pzlatov       ########   odam.nl         */
+/*   Updated: 2024/10/25 20:12:09 by pzlatov       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,3 +34,8 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	}
 	return (0);
 }
+
+// int main()
+// {
+//  printf("%s\n", ft_strnstr("abcdef", "c", 4));
+// }

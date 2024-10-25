@@ -6,7 +6,7 @@
 /*   By: pzlatov <pzlatov@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2024/10/07 19:19:20 by pzlatov       #+#    #+#                 */
-/*   Updated: 2024/10/24 17:44:39 by pzlatov       ########   odam.nl         */
+/*   Updated: 2024/10/25 20:17:56 by pzlatov       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,3 +35,17 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 	dst[i] = '\0';
 	return (len);
 }
+
+// int main()
+// {
+//  char src[] = "123456";
+//  int len = sizeof(src);
+//  char dest[len];
+//  printf("len: %d, ", ft_strlcpy(dest, src, 572));
+//  printf("dst: %s\n", dest);
+//  char srcc[] = "123456";
+//  int lenn = sizeof(srcc);
+//  char destt[lenn];
+//  printf("len: %d, ", strlcpy(destt, srcc, 572));
+//  printf("dstt: %s\n", destt);
+// }

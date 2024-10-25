@@ -6,7 +6,7 @@
 /*   By: pzlatov <pzlatov@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2024/10/21 17:58:07 by pzlatov       #+#    #+#                 */
-/*   Updated: 2024/10/24 17:55:32 by pzlatov       ########   odam.nl         */
+/*   Updated: 2024/10/25 20:13:12 by pzlatov       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,3 +34,10 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	}
 	return (str);
 }
+
+// int main()
+// {
+//  char str[] = "Krakata mi sa mrusni";
+//  char *ptr = ft_substr(str, 0, 5);
+//  printf("%s", ptr);
+// }

@@ -6,7 +6,7 @@
 /*   By: pzlatov <pzlatov@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2024/10/16 13:03:34 by pzlatov       #+#    #+#                 */
-/*   Updated: 2024/10/24 18:09:34 by pzlatov       ########   odam.nl         */
+/*   Updated: 2024/10/25 20:14:52 by pzlatov       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,20 @@ void	*ft_calloc(size_t nmemb, size_t size)
 		temp[i++] = 0;
 	return (temp);
 }
+
+// int main()
+// {
+//     size_t num = 5;
+//     size_t size = sizeof(int);
+//     int *arr = (int *)ft_calloc(num, size);
+//     if (arr == NULL)
+//  {
+//         printf("Memory allocation failed\n");
+//         return 1;
+//     }
+//     printf("Array elements after ft_calloc:\n");
+//     for (size_t i = 0; i < num; i++)
+//         printf("arr[%zu] = %d\n", i, arr[i]);
+//     free(arr);
+//     return 0;
+// }

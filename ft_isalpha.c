@@ -6,7 +6,7 @@
 /*   By: pzlatov <pzlatov@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2024/10/07 18:22:38 by pzlatov       #+#    #+#                 */
-/*   Updated: 2024/10/24 17:08:36 by pzlatov       ########   odam.nl         */
+/*   Updated: 2024/10/25 20:15:32 by pzlatov       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,3 +19,11 @@ int	ft_isalpha(int c)
 		return (0);
 	return (1);
 }
+
+// int main()
+// {
+//     char c = 'a';
+//     printf("%d\n", ft_isalpha(c));
+//  printf("%d\n", isalpha(c));
+//     return 0;
+// }

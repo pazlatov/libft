@@ -6,7 +6,7 @@
 /*   By: pzlatov <pzlatov@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2024/10/14 20:16:04 by pzlatov       #+#    #+#                 */
-/*   Updated: 2024/10/24 17:18:00 by pzlatov       ########   odam.nl         */
+/*   Updated: 2024/10/25 20:19:15 by pzlatov       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,3 +27,12 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 		i++;
 	return ((unsigned char)st1[i] - (unsigned char)st2[i]);
 }
+
+// int main()
+// {
+//  char s1[] = "020002";
+//  char s2[] = "000023";
+//  size_t n = 3;
+//  printf("%d\n", ft_memcmp(s1, s2, n));
+//  printf("%d\n", memcmp(s1, s2, n));
+// }

@@ -6,7 +6,7 @@
 /*   By: pzlatov <pzlatov@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2024/10/23 12:50:24 by pzlatov       #+#    #+#                 */
-/*   Updated: 2024/10/24 17:13:36 by pzlatov       ########   odam.nl         */
+/*   Updated: 2024/10/25 20:20:40 by pzlatov       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,3 +75,8 @@ static void	fill_string(char *nstr, long nbr, size_t len, int is_negative)
 		i--;
 	}
 }
+
+// int main()
+// {
+//  printf("%s", ft_itoa(-2147483648));
+// }

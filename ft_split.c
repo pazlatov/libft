@@ -6,7 +6,7 @@
 /*   By: pzlatov <pzlatov@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2024/10/24 14:08:14 by pzlatov       #+#    #+#                 */
-/*   Updated: 2024/10/24 18:43:02 by pzlatov       ########   odam.nl         */
+/*   Updated: 2024/10/25 20:07:35 by pzlatov       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -90,3 +90,17 @@ char	**ft_split(char const *s, char c)
 	strings[word] = NULL;
 	return (strings);
 }
+
+// int  main()
+// {
+//  char    str[] = "  I   am a genius";
+//  char    sep = ' ';
+//  char    **arr = ft_split(str, sep);
+//  for (int i = 0; arr[i] != NULL; i++)
+//  {
+//      printf("Word %d: %s\n", i + 1, arr[i]);
+//      free(arr[i]);
+//  }
+//  free(arr);
+//  return (0);
+// }

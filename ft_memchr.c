@@ -6,7 +6,7 @@
 /*   By: pzlatov <pzlatov@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2024/10/14 17:22:23 by pzlatov       #+#    #+#                 */
-/*   Updated: 2024/10/24 17:16:51 by pzlatov       ########   odam.nl         */
+/*   Updated: 2024/10/25 20:19:03 by pzlatov       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,11 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
+
+// int main()
+// {
+//  char str[] = "12345c";
+//  printf("%p\n", str + 5);
+//  printf("%p\n", ft_memchr(str, 'c', 7));
+//  printf("%p\n", memchr(str, 'c', 7));
+// }

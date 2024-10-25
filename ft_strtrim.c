@@ -6,7 +6,7 @@
 /*   By: pzlatov <pzlatov@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2024/10/23 12:39:43 by pzlatov       #+#    #+#                 */
-/*   Updated: 2024/10/24 17:54:21 by pzlatov       ########   odam.nl         */
+/*   Updated: 2024/10/25 22:19:02 by pzlatov       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,14 +22,14 @@ char	*ft_strtrim(const char *s1, const char *set)
 	start = 0;
 	end = ft_strlen(s1);
 	if (!s1)
-		return (ft_strdup(""));
-	if (!set)
+		return (NULL);
+	if (!set || !*set)
 		return (ft_strdup(s1));
-	while (match_making(s1[start], set))
+	while (s1[start] && match_making(s1[start], set))
 		start++;
-	while (match_making(s1[end - 1], set))
+	while (end > start && match_making(s1[end - 1], set))
 		end--;
-	if (start >= end)
+	if (start == end)
 		return (ft_strdup(""));
 	return (ft_substr(s1, start, end - start));
 }
@@ -47,3 +47,17 @@ int	match_making(char c, const char *set)
 	}
 	return (0);
 }
+
+// int main()
+// {
+//     char s1[] = "";
+//     char set[] = "";
+//     char *ptr = ft_strtrim(s1, set);
+//     if (ptr)
+//     {
+//         printf("%s", ptr);
+//         free (ptr);
+//     }
+//     else
+//         return 0;
+//}
